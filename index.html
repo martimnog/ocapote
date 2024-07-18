@@ -1,0 +1,164 @@
+<!DOCTYPE html><html><head>
+<title>O Capote Restaurante</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/ocapote.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/ocapotecapas.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<div class="ocapote-top">
+  <div class="ocapote-row ocapote-padding ocapote-black">
+    <div class="ocapote-col s3">
+      <a href="#" class="ocapote-button ocapote-block ocapote-black">HOME</a>
+    </div>
+    <div class="ocapote-col s3">
+      <a href="#about" class="ocapote-button ocapote-block ocapote-black">SOBRE NÓS</a>
+    </div>
+    <div class="ocapote-col s3">
+      <a href="#menu" class="ocapote-button ocapote-block ocapote-black">MENU</a>
+    </div>
+    <div class="ocapote-col s3">
+      <a href="#where" class="ocapote-button ocapote-block ocapote-black">ONDE É?</a>
+      
+    </div>
+  </div>
+</div>
+
+<header class="bgimg ocapote-display-container ocapote-grayscale-min" id="home">
+  <div class="ocapote-display-bottomleft ocapote-center ocapote-padding-large ocapote-hide-small">
+    <span class="ocapote-tag">Abertos das 12h as 22h</span>
+  </div>
+  <div class="ocapote-display-middle ocapote-center">
+    <span class="ocapote-text-white" style="font-size:90px">O<br>Capote</span>
+  </div>
+  <div class="ocapote-display-bottomright ocapote-center ocapote-padding-large">
+    <span class="ocapote-text-white">Rua Dr. Jaime Figueredo n8</span>
+  </div>
+</header>
+
+
+<div class="ocapote-sand ocapote-grayscale ocapote-large">
+
+
+<div class="ocapote-container" id="about">
+  <div class="ocapote-content" style="max-width:700px">
+    <h5 class="ocapote-center ocapote-padding-64"><span class="ocapote-tag ocapote-wide">Sobre O Capote</span></h5>
+    <p>O restaurante "O Capote", há 15 anos em atividade, é um verdadeiro refúgio para os amantes da gastronomia tradicional portuguesa. Com uma decoração que homenageia a arte da caça, suas paredes adornadas com troféus e elementos rústicos criam um ambiente acolhedor e autêntico. No menu, destacam-se pratos clássicos da culinária lusa, preparados com ingredientes frescos e receitas passadas de geração em geração. Cada refeição no "O Capote" é uma celebração da riqueza e diversidade da culinária portuguesa, oferecendo aos seus clientes uma experiência inesquecível que combina sabor e tradição.</p>
+    <p>Restaurante de cozinha tradicional portuguesa destacando-se os grelhados no carvão de carnes de porco preto, e de toiro bravo, enguias fritas e a tradicional sopa da pedra, o caril de gambas e a afamada açorda de gambas. Venha provar.</p>
+    <div class="ocapote-panel ocapote-leftbar ocapote-light-grey">
+      <p><i>"No que respeita aos peixes, o bacalhau, as enguias fritas e o ensopado delas, as lulinhas fritas com camarão ou as grelhadas, e os chocos à lagareiro, são um ex liberis da casa."</i></p>
+      <p>Chefe: Jaime Pestana </p>
+    </div>
+    <img src="images/foradocapote.jpg" style="width:100%;max-width:1000px" class="ocapote-margin-top">
+    <p><strong>Horario de abertura:</strong> Segunda a segunda das 12h as 22h</p>
+    <p><strong>Encontre nos aqui</strong> Rua Dr. Jaime Figueredo n8</p>
+  </div>
+</div>
+
+<div class="ocapote-container" id="menu">
+  <div class="ocapote-content" style="max-width:700px">
+ 
+    <h5 class="ocapote-center ocapote-padding-48"><span class="ocapote-tag ocapote-wide">O MENU</span></h5>
+  
+    <div class="ocapote-row ocapote-center ocapote-card ocapote-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="ocapote-col s6 tablink ocapote-dark-grey">Comida</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="ocapote-col s6 tablink">Bebida</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="ocapote-container menu ocapote-padding-48 ocapote-card" style="display: block;">
+      <h5>Pão</h5>
+      <p class="ocapote-text-grey">Pão caseiro, crocante por fora, macio por dentro, com sabor autêntico e aroma irresistível, feito com amor. 3.00</p><br>
+    
+      <h5>Azeitonas</h5>
+      <p class="ocapote-text-grey">Azeitonas caseiras, curadas à perfeição, sabor intensamente rico e textura firme, temperadas com ervas aromáticas frescas. 2.00</p><br>
+    
+      <h5>Croquete á moda do chefe</h5>
+      <p class="ocapote-text-grey">Croquete caseiro, crocante por fora, recheio cremoso e saboroso, perfeito para qualquer ocasião, irresistivelmente delicioso. 3.50</p><br>
+    
+      <h5>Lombinhos com mel e mostarda</h5>
+      <p class="ocapote-text-grey">Lombinhos caseiros, tenros e suculentos, marinados em mel e mostarda, resultando em uma combinação perfeita de sabores doce e picante. 11.50</p><br>
+    
+      <h5>Lombinhos "À Capote"</h5>
+      <p class="ocapote-text-grey">Lombinhos "À Capote", caseiros, suculentos, servidos com um molho especial, combinando ervas aromáticas e especiarias, proporcionando sabor inigualável. 12.50</p>
+    </div>
+
+    <div id="Drinks" class="ocapote-container menu ocapote-padding-48 ocapote-card" style="display: none;">
+      <h5>Água Mineral</h5>
+      <p class="ocapote-text-grey">Água Mineral 1,50</p><br>
+    
+      <h5>Refrigerante</h5>
+      <p class="ocapote-text-grey">(Coca-Cola, Fanta, Sumol): 2,00</p><br>
+    
+      <h5>Cerveja</h5>
+      <p class="ocapote-text-grey">erveja (Sagres, Super Bock): 3,00</p><br>
+    
+      <h5>Vinho</h5>
+      <p class="ocapote-text-grey">Vinho da Casa (taça): 4,50</p><br>
+    
+      <h5>Sangria</h5>
+      <p class="ocapote-text-grey">Sangria (jarra): 12,00</p>
+    </div>  
+    <img src="images/piteu.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<div class="ocapote-container" id="where" style="padding-bottom:32px;">
+  <div class="ocapote-content" style="max-width:700px">
+    <h5 class="ocapote-center ocapote-padding-48"><span class="ocapote-tag ocapote-wide">Onde Nos Achar</span></h5>
+    <p>Estamos na Rua Dr. Jaime Figueredo n8</p>
+    <img src="images/local.png" class="ocapote-image" style="width:100%">
+    <p><span class="ocapote-tag">TAMBEM!</span> Oferecemos serviço completo de catering para qualquer evento, grande ou pequeno. Entendemos as suas necessidades e cuidamos para que a comida satisfaça os critérios mais importantes de todos: aparência e sabor.</p>
+    <p><strong>Reserva</strong> uma mesa, pergunte pelo prato do dia ou simplesmente envie-nos uma mensagem:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="ocapote-input ocapote-padding-16 ocapote-border" type="text" placeholder="Nome" required="" name="Name"></p>
+      <p><input class="ocapote-input ocapote-padding-16 ocapote-border" type="number" placeholder="Quantas Pessoas" required="" name="People"></p>
+      <p><input class="ocapote-input ocapote-padding-16 ocapote-border" type="datetime-local" placeholder="Data e Hora" required="" name="date" value="2020-11-16T20:00"></p>
+      <p><input class="ocapote-input ocapote-padding-16 ocapote-border" type="text" placeholder="Mensagem \ Requesitos" required="" name="Message"></p>
+      <p><button class="ocapote-button ocapote-black" type="submit">Enviar Mensagem</button></p>
+    </form>
+  </div>
+</div>
+
+</div>
+
+<script>
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" ocapote-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " ocapote-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+
+</body></html>
